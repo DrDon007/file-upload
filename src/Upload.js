@@ -12,11 +12,11 @@ function Upload() {
         let newFile = fileInput.current.files[0];
 
         const config = {
-            bucketName: "elasticbeanstalk-us-east-2-151994240113",
+            bucketName: "",
             dirName: "",
-            region: "us-east-2",
-            accessKeyId: "AKIASGY4QBRYUUREEJOV",
-            secretAccesskey: "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"
+            region: "",
+            accessKeyId: "",
+            secretAccesskey: ""
         };
 
         const ReactS3Client = new S3(config);
